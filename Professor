@@ -2,10 +2,10 @@ public class Professor extends Person {
     private String job;
     private String course;
 
-    public Professor(String name, int age, String job, String course) {
+    public Professor(String name, int age, String job, String courseName) {
         super(name, age);
         this.job = job;
-        this.course = new Course(course);
+        this.course = new Course(courseName);
     }
 
     public String getJob() {
@@ -26,8 +26,6 @@ public class Professor extends Person {
 
     @Override
     public void Info() {
-        System.out.println("**********************");
         System.out.println("Name: " + getName() + "\nAge: " + getAge() + "\nJob: " + getJob() + "\nTeaches: " + course.getCourseName());
-        System.out.println("**********************");
     }
 }
