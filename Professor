@@ -27,7 +27,7 @@ public class Professor extends Person {
     @Override
     public void Info() {
         System.out.println("**********************");
-        System.out.println("Name: " + getName() + "/nAge: " + getAge() + "/nJob: " + getJob() + "/nTeaches: " + getCourse());
+        System.out.println("Name: " + getName() + "\nAge: " + getAge() + "\nJob: " + getJob() + "\nTeaches: " + course.getCourseName());
         System.out.println("**********************");
     }
 }
