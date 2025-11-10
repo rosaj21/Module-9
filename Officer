@@ -25,8 +25,6 @@ public class Officer extends Person {
     }
     @Override
     public void Info() {
-        System.out.println("**********************");
         System.out.println("Name: " + getName() + "\nAge: " + getAge() + "\nJob: " + getJob() + "\nRank: " + getRank());
-        System.out.println("**********************");
     }
 }
