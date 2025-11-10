@@ -25,6 +25,8 @@ public class Student extends Person {
     }
     @Override
     public void Info() {
-        System.out.println("Name: " + getName() + ", Age: " + getAge() + ", Job: " + getJob() + ", Major: " + getMajor());
+        System.out.println("**********************");
+        System.out.println("Name: " + getName() + "/nAge: " + getAge() + "/nJob: " + getJob() + "/nMajor: " + getMajor());
+        System.out.println("**********************");
     }
 }
