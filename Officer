@@ -1,0 +1,32 @@
+public class Officer extends Person {
+    private String job;
+    private String rank;
+
+    public Officer(String name, int age, String job, String rank) {
+        super(name, age);
+        this.job = job;
+        this.rank = rank;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
+    public String getRank() {
+        return rank;
+    }
+
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+    @Override
+    public void Info() {
+        System.out.println("**********************");
+        System.out.println("Name: " + getName() + "\nAge: " + getAge() + "\nJob: " + getJob() + "\nRank: " + getRank());
+        System.out.println("**********************");
+    }
+}
