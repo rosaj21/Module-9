@@ -1,0 +1,30 @@
+public class Student extends Person {
+    private String job;
+    private String major;
+
+    public Student(String name, int age, String job, String major) {
+        super(name, age);
+        this.job = job;
+        this.major = major;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+    @Override
+    public void Info() {
+        System.out.println("Name: " + getName() + ", Age: " + getAge() + ", Job: " + getJob() + ", Major: " + getMajor());
+    }
+}
