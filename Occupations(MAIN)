@@ -7,6 +7,7 @@ public class Occupations{
 
         Person[] people = {person1, person2, student1, prof};
         for (Person person: people ) {
+            System.out.println("**********************");
             person.Info();
         }
     }
