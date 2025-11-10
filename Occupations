@@ -1,0 +1,15 @@
+public class Occupations{
+    public static void main(String[] args) {
+        Person person1 = new Person("Maria", 18);
+        Person person2 = new Student("Nerd", 18, "Student", "CSC");
+        Person student1 = new Officer("Steve", 30, "Officer", "Capitan");
+        Person prof = new Professor("Dr.Smith", 45, "Professor", "CSC211");
+
+        Person[] people = {person1, person2, student1, prof};
+        for (Person person: people ) {
+            person.Info();
+        }
+    }
+
+}
+
